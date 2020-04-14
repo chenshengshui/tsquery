@@ -21,7 +21,7 @@
     "prepublish": "npm run build && npm run release"
   },
   "dependencies": {
-    "esquery": "^1.0.1"
+    "esquery": "1.0.1"
   },
   "peerDependencies": {
     "typescript": "^3"
