@@ -5,7 +5,7 @@ TSQuery is a port of the ESQuery API for TypeScript! TSQuery allows you to query
 ## Installation
 
 ```sh
-npm install @chenshengshui/tsquery --save-dev
+npm install tsquery --save-dev
 ```
 
 ## Examples
@@ -15,7 +15,7 @@ Say we want to select all instances of an identifier with name "Animal", e.g. th
 We would do something like the following:
 
 ```ts
-import { tsquery } from '@chenshengshui/tsquery';
+import { tsquery } from 'tsquery';
 
 const typescript = `
 
