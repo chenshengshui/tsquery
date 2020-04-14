@@ -1,0 +1,76 @@
+{
+  "name": "@chenshengshui/tsquery",
+  "version": "0.0.0",
+  "description": "Query TypeScript ASTs with the esquery API!",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "author": "chenshengshui@163.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenshengshui/typescriptQuery"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean && npm run compile && npm run test",
+    "clean": "rimraf dist",
+    "compile": "tsc",
+    "test": "jest",
+    "eslint": "eslint src --ext .ts",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "esquery": "^1.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^3"
+  },
+  "files": [
+    "dist/src"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/chai": "^4.2.3",
+    "@types/jasmine": "^3.4.4",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "chai": "^4.2.0",
+    "conventional-changelog-cli": "^2.0.31",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "jest": "^24.9.0",
+    "prettier": "^2.0.4",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "jest": {
+    "globals": {
+      "__TS_CONFIG__": "tsconfig.json"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "<rootDir>/src/**"
+    ],
+    "coverageDirectory": "<rootDir>/reports/coverage",
+    "transform": {
+      "\\.(ts)$": "ts-jest"
+    },
+    "testRegex": "/test/.*\\.spec\\.ts$"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  }
+}
