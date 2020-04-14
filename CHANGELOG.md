@@ -11,6 +11,7 @@
 
 ### docs
 
+* update changelog ([e125361](https://github.com/chenshengshui/typescriptQuery/commit/e125361d40663a61734bed7827523fc62a1f96fc))
 * update changelog ([20dd5d4](https://github.com/chenshengshui/typescriptQuery/commit/20dd5d45607bf567cc2e4901dbcc9eda9504a2d9))
 
 ### modify
