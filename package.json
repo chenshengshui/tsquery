@@ -16,8 +16,9 @@
     "compile": "tsc",
     "test": "jest",
     "eslint": "eslint src --ext .ts",
+    "releash": "./releash.sh",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
-    "prepublishOnly": "npm run build"
+    "prepublish": "npm run build && npm run releash"
   },
   "dependencies": {
     "esquery": "^1.0.1"
