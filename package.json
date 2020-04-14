@@ -1,5 +1,5 @@
 {
-  "name": "tsquery",
+  "name": "@chenshengshui/tsquery",
   "version": "0.0.2",
   "description": "Query TypeScript ASTs with the esquery API!",
   "main": "dist/src/index.js",
