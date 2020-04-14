@@ -51,6 +51,10 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   },
+  "homepage": "https://github.com/chenshengshui/tsquery",
+  "bugs": {
+    "url": "https://github.com/chenshengshui/tsquery/issues"
+  },
   "jest": {
     "globals": {
       "__TS_CONFIG__": "tsconfig.json"
