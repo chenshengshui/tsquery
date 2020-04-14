@@ -9,6 +9,10 @@
 
 * init project ([718893a](https://github.com/chenshengshui/typescriptQuery/commit/718893af80e5e2f3d448bed6f31a577af2fbbf27))
 
+### docs
+
+* update changelog ([20dd5d4](https://github.com/chenshengshui/typescriptQuery/commit/20dd5d45607bf567cc2e4901dbcc9eda9504a2d9))
+
 ### modify
 
 * 修改homepage链接 ([0490639](https://github.com/chenshengshui/typescriptQuery/commit/04906394e68e995aa2b2c80837c30c45af33d627))
