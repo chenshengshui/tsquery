@@ -1,4 +1,4 @@
-## 0.0.1 (2020-04-14)
+## [0.0.2](https://github.com/chenshengshui/typescriptQuery/compare/718893af80e5e2f3d448bed6f31a577af2fbbf27...v0.0.2) (2020-04-14)
 
 
 ### add
@@ -11,8 +11,10 @@
 
 ### docs
 
+* update changelog ([5c6bcd9](https://github.com/chenshengshui/typescriptQuery/commit/5c6bcd9a6a8fdee991af9241b1d116351c51a184))
 * update changelog ([e125361](https://github.com/chenshengshui/typescriptQuery/commit/e125361d40663a61734bed7827523fc62a1f96fc))
 * update changelog ([20dd5d4](https://github.com/chenshengshui/typescriptQuery/commit/20dd5d45607bf567cc2e4901dbcc9eda9504a2d9))
+* 修改文档 ([38ea465](https://github.com/chenshengshui/typescriptQuery/commit/38ea4654fe7550f56b94dfc6d1233e392e9620b3))
 
 ### modify
 
