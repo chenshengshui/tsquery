@@ -7,7 +7,7 @@
   "author": "chenshengshui@163.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenshengshui/typescriptQuery"
+    "url": "https://github.com/chenshengshui/tsquery"
   },
   "license": "MIT",
   "scripts": {
