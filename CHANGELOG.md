@@ -1,3 +1,16 @@
+## [0.0.3](https://github.com/chenshengshui/typescriptQuery/compare/v0.0.2...v0.0.3) (2020-04-14)
+
+
+### docs
+
+* update changelog ([3473541](https://github.com/chenshengshui/typescriptQuery/commit/34735410f6172b6e12f860ee4f61369067196d8d))
+
+### modify
+
+* 增加scope ([6108a8f](https://github.com/chenshengshui/typescriptQuery/commit/6108a8f492ba1254692530bfcfce9bacb21a01db))
+
+
+
 ## [0.0.2](https://github.com/chenshengshui/typescriptQuery/compare/718893af80e5e2f3d448bed6f31a577af2fbbf27...v0.0.2) (2020-04-14)
 
 
