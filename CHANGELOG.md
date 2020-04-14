@@ -1,3 +1,12 @@
+## [0.0.6](https://github.com/chenshengshui/tsquery/compare/v0.0.5...v0.0.6) (2020-04-14)
+
+
+### docs
+
+* update changelog ([1545dda](https://github.com/chenshengshui/tsquery/commit/1545dda12a830496fba7d6059d91a8462d5a1804))
+
+
+
 ## [0.0.5](https://github.com/chenshengshui/tsquery/compare/v0.0.4...v0.0.5) (2020-04-14)
 
 
